@@ -1,7 +1,7 @@
 def bSearch(l, x):
     low = 0
     high = len(l) - 1
-    while low < high:
+    while low <= high:
         mid = (low + high) // 2
         if l[mid] == x:
             return mid
